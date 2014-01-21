@@ -1,0 +1,18 @@
+{
+    "table": "app",
+    "columns": [
+        {
+            "name": "name",
+            "type": "String",
+            "index": true,
+            "isPrimary" : true
+        },
+
+        {
+            "name": "value",
+            "type": "Boolean",
+            "index": true
+        }
+
+    ]
+}

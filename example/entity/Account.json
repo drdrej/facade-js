@@ -1,0 +1,26 @@
+{
+    "table": "account",
+    "columns": [
+        {
+            "name": "_id",
+            "type": "Number",
+            "isPrimary": true,
+            "index": true
+        },
+
+        {
+            "name": "email",
+            "type": "String"
+        },
+
+        {
+            "name": "password",
+            "type": "String"
+        },
+
+        {
+            "name": "isActive",
+            "type": "Boolean"
+        }
+    ]
+}
