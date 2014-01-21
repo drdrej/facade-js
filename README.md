@@ -53,6 +53,7 @@ An entity-config is a json-object with this structure:
 ```
 
 A valid example (Primary-key and index is not supported at this moment.):
+
 ```javascript
         {
             "table": "app",
@@ -100,6 +101,8 @@ require([ 'dbEnv' ], function (DbEnv) {
                 console.log("db initialization forced.");
         });
     });
+
+
 ```
 
 
