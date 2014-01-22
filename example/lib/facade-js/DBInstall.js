@@ -19,7 +19,7 @@ define([
         }
 
         // is object: return as it is.
-        return def
+        return def;
     };
 
     var install = function (dbManager, defs, success, fail) {
