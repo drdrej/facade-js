@@ -74,7 +74,7 @@ require([ 'dbEnv' ], function (DbEnv) {
             ]
         }
     ],
-        function () {
+        function (DbManager) {
             console.log("db initialization forced.");
         });
 });
