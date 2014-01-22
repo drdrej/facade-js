@@ -14,7 +14,7 @@ define([
         // TODO: add cache here
 
         if( doAfter && _.isFunction(doAfter) ) {
-            doAfter();
+            doAfter(dbManager);
         }
     };
 
